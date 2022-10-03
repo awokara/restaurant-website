@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .col1{
+          background-image: url('./images/gallary-1.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col2{
+          background-image: url('./images/gallary-2.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col3{
+          background-image: url('./images/gallary-3.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col4{
+          background-image: url('./images/gallary-4.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+          /* height: 300px; */
+        }
+        
+        .col5{
+          background-image: url('./images/gallary-5.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+          /* height: 300px; */
+        }
+        
+        .col6{
+          background-image: url('./images/gallary-6.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+          /* height: 300px; */
+        }
+        
+        .col7{
+          background-image: url('./images/gallary-7.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+          /* height: 300px; */
+        }
+        
+        .col8{
+          background-image: url('./images/gallary-9.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+          /* height: 300px; */
+        }
+        
+        
+        
+        .col9{
+          background-image: url('./images/gallary-10.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col10{
+          background-image: url('./images/gallary-11.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col11{
+          background-image: url('./images/gallary-12.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .col12{
+          background-image: url('./images/food3.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 360px;
+        }
+        
+        .hover-text{
+          background: #00000099;
+          opacity: 0;
+          height: 300px;
+        }
+        
+        .hover-text:hover{
+          padding: 50px;
+          opacity: 1;
+        }
+            </style>
+</head>
+<body class="bg-dark">
+    <nav class="container-fliud navbar navbar-expand-lg navbar-light bg-dark p-3 sticky-top">
+        <a class="navbar-brand orange text-danger" href="#" style="font-weight:bold;font-size: 40px;">FOOD HOUSE</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-danger" href="index.html" >HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="gallary.html">GALLARY</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="book.html">BOOK-TABLE</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="pages.html">PAGES</a>
+              </li>
+
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="review.html">REVIEWS</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+            </li>
+
+            <li class="nav-item active bg-danger">
+              <a class="nav-link text-white" href="#">COMPONENTS</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="mt-2 p-5 our-menu">
+        <h1 class="our-menu">BOOK A TABLE</h1>
+      </div>
+
+
+      <div class="container-fluid row ml-auto book1">
+          <div class="col-12 col-lg-3 mb-3">
+              <input type="text" id="valueA1" class="form-control bg-dark text-white" placeholder="ENTER EMAIL" onkeyup="validateName()">
+              <span id="valueAErr1"></span>
+          </div>
+          <div class="col-12 col-lg-3 mb-3">
+              <input type="tel"  id="valueB1" class="form-control bg-dark text-white" placeholder="NUMBER OF GUESTS"onkeyup="validatenumber()">
+              <span id="valueBErr1"></span>
+          </div>
+          <div class="col-12 col-lg-3 mb-3">
+              <input type="email" class="form-control bg-dark text-white" placeholder="TIME" id="Time">
+          </div>
+          <div class="col-12 col-lg-3">
+              <input type="email" class="form-control bg-dark text-white" placeholder="DATE" id="Date">
+          </div>
+     </div>
+    <div class="p-5 find-table">
+      <button type="submit" class="btn btn-danger row" >FIND TABLE</button>
+    </div><hr>
+
+
+    <div class="container-fliud">
+        <div class="events">
+          <b class="text-white font-weight: bold;">EVENTS AT THE FOOD HOUSE</b>
+              <div class="food">
+              <button type="submit" class="btn btn-dark text-danger" style="width: 200px;">Foods</button>                         
+              <button type="submit" class="btn btn-danger" style="width: 200px;">Juices</button>
+            </div>
+        </div>
+  
+  
+      <div class="container-fluid row  ml-auto mt-5">        
+        <div class="container col-12 col-lg-4 mb-3"> 
+              <div class="burger">
+              <img src="./images/blog-1.jpg" alt="blog-1" width="445px">
+              <button type="submit" class="btn btn-danger mt-3" style="font-size: 30px;">$5</button>
+              <h4 class="p-3">Reiciendis Laborum</h4>
+              <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mb-3"> 
+            <div class="burger">
+            <img src="./images/blog-2.jpg" alt="blog-2" width="445x">
+            <button type="submit" class="btn btn-danger mt-3" style="font-size: 30px;">$12</button>
+            <h4 class="p-3">Reiciendis Laborum</h4>
+            <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3"> 
+          <div class="burger">
+          <img src="./images/blog-3.jpg" alt="blog-3" width="445px">
+          <button type="submit" class="btn btn-danger mt-3" style="font-size: 30px;">$8</button>
+          <h4 class="p-3">Reiciendis Laborum</h4>
+          <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.</p>
+        </div>
+        </div>
+      </div>
+    </div><hr>
+
+
+    <div class="mt-5">
+      <p class="reviews text-white">REVIEWS</p>
+    </div>
+
+    <div class="container-fluid row  ml-auto mb-5 john-doe1">
+      <div class="col-sm-12 col-lg-4 mb-5">
+        <h2 class="john-doe1">John Doe</h2>
+        <h5 class="mb-5">Web Designer</h5>
+        <div class="p-3 john-doe">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Eius aliquid, quisquam possimus sint, magni vel fugit distinctio totam fugiat unde repellat laborum commodi nihil, hic velit dolore quas corporis inventore.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-lg-4 mb-5">
+        <h2 class="john-doe1">Steve Thomas</h2>
+        <h5 class="mb-5">UX/UI Designer</h5>
+        <div class="p-3 john-doe">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Eius aliquid, quisquam possimus sint, magni vel fugit distinctio totam fugiat unde repellat laborum commodi nihil, hic velit dolore quas corporis inventore.</p>
+        </div>
+      </div>
+
+        <div class="col-sm-12 col-lg-4 mb-5">
+          <h2 class="john-doe1">Miranda Joy</h2>
+          <h5 class="mb-5">Graphic Designer</h5>
+          <div class="p-3 john-doe">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Eius aliquid, quisquam possimus sint, magni vel fugit distinctio totam fugiat unde repellat laborum commodi nihil, hic velit dolore quas corporis inventore.</p>
+          </div>
+       </div>
+    </div><hr>
+
+    <div class="container-fluid row mt-5 pt-5">
+      <div class="col-sm-6 col-lg-6">
+        <img src="map.png" alt="map" width="550px"  height="400px">
+      </div>
+      <div class="col-sm-12 col-lg-6 text-white mt-5 p-5">
+        <h2>FIND US</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus aut laborum laboriosam dolorem exercitationem quos 
+          in aliquid quod, architecto, adipisci, eum harum expedita a ad sunt repellendus libero perspiciatis. Deleniti?</p>
+        <p><i class="bi bi-joystick"></i><span> 12345 Fake ST NoWhere, AB Country</span></p>
+        <p><i class="bi bi-telephone-fill"></i><span>  (123) 456-7890</span></p>
+        <p><i class="bi bi-envelope-fill"><span>  (info@domain.com)</span></i></p>
+      </div>
+    </div><hr>
+
+    <div class="last">
+      <div class="row ml-auto p-5 text-white">
+        <div class="col-sm-12 col-lg-4 last">
+          <h1>EMAIL US</h1>
+          <p>info@domain.com</p>
+        </div>
+
+        <div class="col-sm-12 col-lg-4 last">
+          <h1>CALL US</h1>
+          <p>(123) 456-7890</p>
+        </div>
+
+        <div class="col-sm-12 col-lg-4 last">
+          <h1>FIND US</h1>
+          <p>12345 Fake ST NoWhere, AB Country</p>
+        </div>
+      </div>
+    </div><hr>
+
+  <footer class="text-dark bg-white" style="text-align: center;">copyright@thompsonab</footer>
+<body>
+    
+</body>
+</html>

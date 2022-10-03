@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+    font-size: 20px;
+}
+
+/* .right-border ul{
+    padding-left: 500px;
+} */
+
+.nav-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.right-head{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+
+
+.head-nav{
+    background: url('bold1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+
+.food-nut{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.food-house1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+*{
+    border: 0px solid red;
+}
+.food-house2{
+    color: white;
+    font-size: 50px;
+}
+
+/* .row{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+} */
+
+.img-about{
+    /* gap: 100px; */
+    color: white; 
+}
+.mt-6{
+    margin-top: 70px;
+}
+
+/* .about-us{
+    margin-top: 100px;
+    margin-right: 60px;
+} */
+
+.our-menu{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.our-menu1:hover{
+    color: blue;
+}
+
+.find-table{
+    text-align: center;
+}
+
+.events{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.food :hover{
+    background: rgb(123, 1, 42);
+}
+
+.burger{
+    border: 1px solid white;
+    text-align: center;
+    width: 450px;
+    color: white;
+}
+
+.dollar{
+    background:  rgb(218, 2, 74);
+    width: 100px;
+    margin: auto;
+}
+
+.reviews{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.john-doe1{
+    text-align: center;
+    color: white;
+}
+
+.john-doe{
+    border:1px solid;
+    border-top: 2px solid rgb(218, 2, 74);
+    
+}
+
+.last{
+    text-align: center;
+}
+
+#valueAErr1{color: red;}
+
+/* .icon1{color: seagreen;} */
+
+
+
